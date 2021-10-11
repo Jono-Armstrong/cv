@@ -1,0 +1,50 @@
+  body{
+      margin:0;
+  }
+  p{
+    font-size: 20px;
+    padding:50px;
+  }
+
+  .top-container{
+    height: 500px;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow:hidden
+  }
+
+  .top-image{
+    filter: brightness(55%);
+  }
+
+  .centered{
+
+    padding: 20px;
+    color: white;
+    border: solid white 10px;
+    position: absolute;
+    font-size: 64px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Orator', monospace;
+    font-weight: bold;
+  }
+
+  .greeting-container{
+    text-align: center;
+    padding: 50px;
+    font-size: 16px;
+    height: 500px;
+
+  }
+
+
+  h1{
+
+
+    font-size: 12;
+    font-family: 'Orator', monospace;
+
+  }
